@@ -3,7 +3,7 @@ def length_finder(input_array)
 end
 
 print "['I','am','genius'] returns "
-p length_finder ['I','am','genius'] # [1,2,6]
+p length_finder ['I','am','genius'] # Expected: [1,2,6]
 print "['things','are','','awesome'] returns "
-p length_finder ['things','are','','awesome'] # [6,3,0,7]
+p length_finder ['things','are','','awesome'] # Expected: [6,3,0,7]
 
